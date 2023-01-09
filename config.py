@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"18476081)
-API_HASH = getenv("API_HASH"23890e56461cadc753694bd8dfaf0227)
+API_ID = int(getenv("API_ID", "18476081")
+API_HASH = getenv("API_HASH", "23890e56461cadc753694bd8dfaf0227")
 
-BOT_TOKEN = getenv("BOT_TOKEN"5988298031:AAEWyj9onTwnLJP5N3-kSNQ2iDLow-5jDPo)
+BOT_TOKEN = getenv("BOT_TOKEN", "5594197245:AAHifwL3SxMgj1yr0g1j1c43KLO3sRDa7Is")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI",mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"-1001618068091))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME",mahimusic_musicbot "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001615104496"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "↱𝐌𝐚𝐡𝐢↺𝐌𝛖𝐬𝛊𝛓↲")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5913375105").split()))
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY",1d5a7f2b-5f27-401b-9683-b1b162657c20 None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Mahiharsh/harshrepo")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION",BQBhNkfpS3e1dBxgv1kSluW3unr8ANREXVx-qN9rso5m1xwXy2sEm77U__zfWGc1zsVDI2rdxwHempUSJe6cDFGrDyxq5GjRm9_oOun_Jsq6fv4Ztu-IR2H22rHdShQaDlIgmr3EQ_XjsnQaPnsy-hLmZR8ih1GWWtBjZX-UZMygpUQT2oDrlYFze78zrsFJessYs8Bn5ygYVwCr_pAhUpTo7mBSGFo5zB22sPdFBLBXZoehymUbbBKlVlJceyT9eSKeIoBLdfVvTj3idGnpIzWMF1Q0mkZ4Vt0rjsVy7XKMooFKFX9TT4hav6KI2Fw9xFmIe9KPOTbYwt2Or5qvugqOAAAAAWB28YEA None)
+STRING1 = getenv("STRING_SESSION", "BQBhNkfpS3e1dBxgv1kSluW3unr8ANREXVx-qN9rso5m1xwXy2sEm77U__zfWGc1zsVDI2rdxwHempUSJe6cDFGrDyxq5GjRm9_oOun_Jsq6fv4Ztu-IR2H22rHdShQaDlIgmr3EQ_XjsnQaPnsy-hLmZR8ih1GWWtBjZX-UZMygpUQT2oDrlYFze78zrsFJessYs8Bn5ygYVwCr_pAhUpTo7mBSGFo5zB22sPdFBLBXZoehymUbbBKlVlJceyT9eSKeIoBLdfVvTj3idGnpIzWMF1Q0mkZ4Vt0rjsVy7XKMooFKFX9TT4hav6KI2Fw9xFmIe9KPOTbYwt2Or5qvugqOAAAAAWB28YEA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
